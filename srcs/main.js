@@ -20,10 +20,6 @@ let map = [];
     initparse(file, drawfdf);
 })('mars');
 
-(function() {
-    initparse("42", drawfdf);
-})();
-
 function drawline(x1, y1, x2, y2) {
     ctx.beginPath();
     ctx.moveTo(x1, y1);
