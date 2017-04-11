@@ -18,7 +18,7 @@ let map = [];
     if (maptozoom[file] != undefined)
         zoom = maptozoom[file];
     initparse(file, drawfdf);
-})('mars');
+})('42');
 
 function drawline(x1, y1, x2, y2) {
     ctx.beginPath();
