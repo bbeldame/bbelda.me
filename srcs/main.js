@@ -18,7 +18,7 @@ let map = [];
     if (maptozoom[file] != undefined)
         zoom = maptozoom[file];
     initparse(file, drawfdf);
-})('42');
+})('mars');
 
 (function() {
     initparse("42", drawfdf);
