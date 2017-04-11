@@ -30,6 +30,7 @@ function parse(strmap, callback) {
             });
         });
     });
+    window.addEventListener("keydown", keydownfunc, false);
     document.getElementById("loading").style.visibility = 'hidden';
     callback(map);
 }

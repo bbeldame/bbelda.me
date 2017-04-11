@@ -11,14 +11,16 @@ const maptozoom = {
 let zoom = 30;
 let map = [];
 
-(function initfdf(file) {
+function initfdf() {
+    const file = '42';
+
     document.getElementById("loading").style.visibility = 'visible';
     ctx.fillStyle = 'rgba(255, 255, 255, 1)';
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     if (maptozoom[file] != undefined)
         zoom = maptozoom[file];
     initparse(file, drawfdf);
-})('42');
+};
 
 function drawline(x1, y1, x2, y2) {
     ctx.beginPath();
@@ -112,5 +114,3 @@ function keydownfunc(e) {
     }
     drawfdf(map);
 }
-
-window.addEventListener("keydown", keydownfunc, false);
