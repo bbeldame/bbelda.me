@@ -13,11 +13,11 @@ blog:
   logo_path                  : "assets/img/dactl.svg" # path to logo file
   search_path                : "bbelda.me"
                                # needed for searchbox in archive page
-  hero_layout                : false # turn on hero layout for blog and posts
+  hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
   excerpts                   : false # show excerpts instead of full post content on blog page
   inline_footnotes           : true # enable/disable barefoot inline footnotes
-  titles_only                : true # show post titles only on main blog page
+  titles_only                : false # show post titles only on main blog page
 
 # Fonts
   font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
