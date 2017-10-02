@@ -8,7 +8,7 @@ sitemap:
 ---
 
 <div class="page">
-  
+
 {% capture page_subtitle %}
   {% include page/searchbox.html %}
 {% endcapture %}
