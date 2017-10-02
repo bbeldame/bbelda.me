@@ -1,13 +1,13 @@
 # Base blog settings
-baseurl                      : "/dactl/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "" # the base hostname & protocol for your site
+url                          : "http://bbelda.me" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : bbelda.me
   description                  : >
-                               this should contain a proper description
+                               Basile Beldame train of thoughts
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -26,13 +26,13 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : Basile Beldame
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
+  mail                      : basile.beldame@gmx.fr # change to your e-mail address
+  twitter                   : bbeldame
+  github                    : bbeldame
   youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
+  stackoverflow             : basile-beldame
   disqus                    : # your_disqus_forum_shortname
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
