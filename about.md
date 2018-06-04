@@ -18,8 +18,4 @@ published: true
 
 {% include page/title.html title=page.title subtitle=page_subtitle %}
 
-## Bonjour !
-
-Il n'y a encore rien ici, le contenu arrive sous peu.
-
 </div>
